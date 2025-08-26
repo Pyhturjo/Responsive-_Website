@@ -139,6 +139,53 @@ font-weight: 700;
 }
 
 
+
+/* 3rd page  */
+#title-border{
+    border-left: 10px solid #FF900E;
+    margin-right: 20px;
+}
+
+.card-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+.enjoy{
+    gap:50px
+    ;
+    align-items:center;
+
+}
+
+
+#badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -40px;
+    margin-top: -99px;
+}
+
+#badge-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
 /* 4th page */
 .facts-card{
     border:1px solid #FF900E;
@@ -197,9 +244,9 @@ font-weight: 700;
     filter: grayscale(100%);
  }
 
- .footer{
+ footer{
     text-align: center;
-    align-items: center;
+ 
  }
 
 
@@ -241,7 +288,19 @@ font-weight: 700;
 
 }
 
-.random-info p{}
+.enjoy{
+    flex-direction: column;
+}
+
+.f-image{
+    width: 100%;
+
+}
+#badge{
+    margin-top: 30px;
+    margin-left: 2px;
+}
+   
 
 }
 
@@ -264,5 +323,12 @@ font-weight: 700;
     justify-items: center;
     
 }
+
+.enjoy{
+    flex-direction: column;
+}
+
+.f-image{
+    width: 100%;}
 
 }   
