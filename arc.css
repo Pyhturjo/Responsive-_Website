@@ -264,6 +264,7 @@ font-weight: 700;
 
     .navbar h3{
         font-size: 4rem;
+        text-align: center;
     }
 
     .navbar ul{
