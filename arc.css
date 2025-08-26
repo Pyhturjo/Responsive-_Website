@@ -261,6 +261,16 @@ font-weight: 700;
         flex-direction: column;
     }
 
+
+    .navbar h3{
+        font-size: 4rem;
+    }
+
+    .navbar ul{
+        gap: 20px;
+        font-size: 2rem;
+    }
+
     .teams-img-container{
         grid-template-columns: repeat(1,1fr);
     }
